@@ -8,9 +8,14 @@ Therefore the loop take (N(N-1))/2 comparisons to complete its sorting. (N=numbe
 </br> The diagrammatic representation of bubble sort is:
 </br>
 ![bubblesort](bubble.png)
+## Algorithm
+Step 1 − Check if the first element in the input array is greater than the next element in the array.
+Step 2 − If it is greater, swap the two elements; otherwise move the pointer forward in the array.
+Step 3 − Repeat Step 2 until we reach the end of the array.
+Step 4 − Check if the elements are sorted; if not, repeat the same process (Step 1 to Step 3) from the last element of the array to the first.
+Step 5 − The final output achieved is the sorted array.
 ## Explaination
 We approach the code by using 2 loops. The outside loop is a while loop which runs *(however many elements are there)* n number of times.
 In the inside loop is a for loop which runs from 0 to n *(number of elements)*, and we compare the elemenmts of the array of indices i and i+1, if they are in the incorrect order, we swap them.
-
-## Output Screenshot
+## Output
 ![output ss](image_2023-10-21_225955751.png)
