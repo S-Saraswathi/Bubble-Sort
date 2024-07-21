@@ -7,7 +7,7 @@ It compares the adjecent pairs and swaps the two if they are in the wrong order.
 Therefore the loop take (N(N-1))/2 comparisons to complete its sorting. (N=number of elements).
 </br> The diagrammatic representation of bubble sort is:
 </br>
-![bubblesort](bubblesortcpp.png)
+![bubblesort](bubble.png)
 ## Explaination
 We approach the code by using 2 loops. The outside loop is a while loop which runs *(however many elements are there)* n number of times.
 In the inside loop is a for loop which runs from 0 to n *(number of elements)*, and we compare the elemenmts of the array of indices i and i+1, if they are in the incorrect order, we swap them.
