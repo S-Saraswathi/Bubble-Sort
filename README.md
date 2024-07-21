@@ -5,7 +5,9 @@ Bubble Sort Algorithm is the simplest sorting algorithm that works by repeatedly
 ### How it works
 It compares the adjecent pairs and swaps the two if they are in the wrong order. After the First Iteration, the last value is guarenteed to be the right place so the next iteration goes till N-1<sup>th</sup> place.
 Therefore the loop take (N(N-1))/2 comparisons to complete its sorting. (N=number of elements).
+</br> 
 </br> The diagrammatic representation of bubble sort is:
+</br>
 </br>
 ![bubblesort](bubble.png)
 ## Algorithm
